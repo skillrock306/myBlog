@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Blog</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!-- Header-->
+		<div class="container-fluid" style="background-color: #F8F8F8">
+			<div class="row" style="padding-top:2%;padding-left: 4%">
+				<div class="col-md-2">
+					<a href="#" id="site-logo" class="site-logo-img">
+						<%= image_tag("blog/Capture.PNG",:width=>"283px",:height=>"56px") %>
+					</a> 
+				</div>
+				<div class="col-md-6"></div>
+				<div class="col-md-4" style="padding-left: 5%">
+					<nav class="navbar navbar-expand-sm">
+					  <ul class="navbar-nav">
+					    <li class="nav-item">
+					      <a class="nav-link" href="#"><b>HOME</b></a>
+					    </li>
+					    <li class="nav-item">
+					      <a class="nav-link" href="#"><b>ABOUT</b></a>
+					    </li>
+					    <li class="nav-item">
+					      <a class="nav-link" href="#"><b>WORK</b></a>
+					    </li>
+					    <li class="nav-item">
+					      <a class="nav-link" href="#"><b>CONTACT</b></a>
+					    </li>
+					  </ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	<!-- End-Header-->
+	<!-- Content-->
+	<div class="content">
+	<div class="container-fluid">
+		<div class="row" style="padding-top: 5%">
+				<div class="col-md-6 col-sm-6 ">
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-8">
+							<div class="ColumnElement">
+								<h1 class="tbk__title" itemprop="headline">Hi, I'm<br>T.Trung</h1>
+		    					<h2 class="tbk__subtitle" itemprop="alternativeHeadline">Creative designer based in Ho Chi Minh City. I love minimalism and I create beautiful websites about my travels. After every trip I always keep memories of that place with photos or movies</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+					<div class="col-md-7 col-ms-6">
+						<div class="columm" style="margin-left: 8.33333333%;padding-bottom: 7%">
+						<div class="ColumnWraper" data-rellax-speed="3" data-rellax-percentage="0.5" style="transform: translate3d(0px, 39px, 0px);">
+							<div class="znboxshadow">
+								<div class="image-boxes-img-wrapper">
+									<%= image_tag("blog/1.jpg") %>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-5">
+				</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End-Content-->
+	<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img class="w3-round w3-image w3-opacity-min">
+     <%= image_tag("blog/tablesetting2.jpg", :width=>"500px",:height=>"750px") %>
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Myself</h1><br>
+      <p class="w3-large">My name is Trung and I’m a Vietnamese. I am twenty-five years old. I live in Ho Chi Minh city in the south of Vietnam. I have a big family with six people. I have four sisters. I’m a generous and easy-going person but when it comes to work I’m a competitive perfectionist. I’m also an optimistic and outgoing person so I have many friends and other social relationships. I enjoy traveling and playing game. I decided to become a Programmer because  have always been fascinated by professional websites. Five years from now, I want to become a project manager of a constructions project, As a project manager, my primary goals are managing people. I also want to speak English and Japanese fluently so I can work with people from different countries.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Personal Information</h1><br>
+      <h4>Name</h4>
+      <p class="w3-text-grey">NGUYEN TAN TRUNG</p><br>
+    
+      <h4>Date of birth</h4>
+      <p class="w3-text-grey">30th Jun 1995</p><br>
+    
+      <h4>Facebook</h4>
+      <a href="https://www.facebook.com/trung.nguyentan.31"><p class="w3-text-grey">My Facabook</p></a><br>
+    
+      <h4>E-mail</h4>
+      <p class="w3-text-grey">nguyentantrung3006@gmail.com</p><br>
+    
+      <h4>Marital status</h4>
+      <p class="w3-text-grey">Single</p><br>
+
+      <h4>Communication Skills</h4>
+      <p class="w3-text-grey">English, Japanese</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img class="w3-round w3-image w3-opacity-min">
+      <%= image_tag("blog/tablesetting.jpg", :width=>"100%") %>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p class="w3-text-blue-grey w3-large"><b>Tan Binh District Ho Chi Minh City</b></p>
+    <p>You can also contact us by phone 0903330695 or email nguyentantrung3006@gmail.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+<hr>
+	<!-- Footer-->
+	<div class="footer">
+		<div class="container-fluid">
+			<div class="row" style="padding-top: 50px;padding-bottom: 40px;">
+				<div class="col-md-6 col-sm-6 ">
+					<div class="zn_text_box">
+						<p><span style="display: block; margin-top: 15px;">Author : NGUYEN TAN TRUNG</span></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 ">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

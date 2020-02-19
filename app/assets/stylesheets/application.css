@@ -1,0 +1,154 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.site-logo-img
+{
+	text-align: center;
+	max-width: none;
+	border:0;
+    height: 57px;	
+}
+#site-logo
+{
+	height: 57px;
+	width: 100%;
+}
+.main-menu ul
+{
+	display: block;
+    list-style-type: disc;
+    margin: 1em;
+    padding: 40px;
+
+}
+.navbar ul
+{
+	padding-top: 3%;
+	padding-left: 10%;
+	
+}
+.navbar ul li
+{
+	font-family: "Poppins",Helvetica,Arial,sans-serif;
+    line-height: 14px;
+    
+    font-style: normal;
+    letter-spacing: 3px;
+    padding-right: 4.0rem;
+    list-style-type: none !important;	
+}
+
+.navbar ul li a
+{
+	color: #000000;
+	font-size: 12px;
+	text-decoration: none;
+	
+}
+
+.navbar ul li a:hover
+{
+	color: #8C8C8C;
+	font-weight: bold !important;
+}
+.content
+{
+	position: relative;
+	width: 100%;
+	height: 900px;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:#F8F8F8;
+}
+.tbk__title{
+	font-family: "Poppins",Helvetica,Arial,sans-serif;
+    font-size: 80px;
+    line-height: 95px;
+    font-weight: 700;
+    color: #0a0a0a;
+    letter-spacing: -3px;
+    margin-bottom: 35px;
+    font-style: normal;
+    margin-top: 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.tbk__subtitle
+{
+	font-family: "Poppins",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 300;
+    color: #6b6b6b;
+    margin-top: 0;
+    font-style: normal;
+    margin-bottom: 10px;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.ColumnElement
+{
+	text-align: right;
+	padding-top: 15%;	
+	padding-right:10%;
+}
+.ColumnWraper
+{
+	text-align: left;
+	padding-bottom: 5%;
+}
+.znboxshadow
+{
+	-webkit-box-shadow :0 40px 120px -20px rgba(0,0,0,.6);
+}
+.image-boxes-img-wrapper
+{
+	width: auto;
+	height: auto;
+	border: 8px solid #fff;
+	
+}
+.image-boxes-img-wrapper img
+{
+	 
+   	width: 455px;
+	height: auto;
+	display: block;
+	margin:auto;	
+   
+}
+.zn_text_box
+{
+	padding-left: 5%;
+}
+.zn_text_box p
+{
+	color: #535353;
+}
+.elm-social-icons{
+	margin-left: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+}
+.elm-social-icons li
+{
+	margin-top: 0;
+    margin-bottom: 10px;
+}
